@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  /* cursor: none; */
+   /* Ensure the path is correct */
+   background-color:black;
+   font-family: 'Clash Display', sans-serif;;
+   
+}
+/* .cursor-custom{
+  cursor: url('/point.png'), auto;
+  
+} */
+
+
