@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "framer-motion": "^11.11.9",
+    "lenis": "^1.1.16",
     "lucide-react": "^0.454.0",
     "portfolio": "file:",
     "react": "^18.3.1",

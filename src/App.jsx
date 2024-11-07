@@ -1,19 +1,26 @@
-import { useState } from 'react'
-
-import './App.css'
-import Grids from './components/Grids'
-import Home from './components/Home'
+import "./App.css";
+import Home from "./components/Home";
+import Lenis from "lenis";
 
 function App() {
+  // Initialize Lenis
+  const lenis = new Lenis();
+
+  // Listen for the scroll event and log the event data
   
 
+  // Use requestAnimationFrame to continuously update the scroll
+  function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+  }
+
+  requestAnimationFrame(raf);
   return (
-   <>
-   <Home/>
-   {/* <Grids/> */}
-   
-   </>
-  )
+    <>
+      <Home />
+    </>
+  );
 }
 
-export default App
+export default App;
