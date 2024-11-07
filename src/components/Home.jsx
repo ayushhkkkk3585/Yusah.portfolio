@@ -182,11 +182,11 @@ const Home = () => {
                         href="https://drive.google.com/file/d/1H-Tj3iFgUPap-xNnQNv0M1VyYo41JRnP/view?usp=sharing"
                       >
                         Click here!
-                      </a>
+                      </a>  
                     </p>
                   </div>
                 </div>
-                <div className="w-96 sm:w-1/2  h-68 sm:h-full ">
+                <div className="w-full sm:w-1/2 h-full">
                   <img
                     src="/gojo.jpeg"
                     alt="Resume"
