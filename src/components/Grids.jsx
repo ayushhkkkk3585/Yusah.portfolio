@@ -28,9 +28,6 @@ const Grids = () => {
     //   </div>
     // </div>
     <>
-      <div>
-        <div className="bg-white rounded-md">dskfjdsk</div>
-      </div>
     </>
   );
 };

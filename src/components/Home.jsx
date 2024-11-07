@@ -1,12 +1,10 @@
 import React from "react";
-// import Cursor from "./Cursor";
 import { Github, Instagram, Twitter, Linkedin, Mail } from "lucide-react";
 import MobileNavbar from "./MobileNavbar";
 
 const Home = () => {
   return (
     <>
-      {/* <Cursor /> */}
       <div className="px-2 md:hidden">
         <MobileNavbar />
       </div>
@@ -53,7 +51,7 @@ const Home = () => {
                       Ayush Khalate
                     </h2>
                     <p className="text-xs md:text-sm lg:text-base font-medium text-gray-600 max-w-prose">
-                      Mid at Dev, but funny IRL?
+                      Full Stack developer who's mid at dev, but funny IRL?
                     </p>
                   </div>
                 </div>
@@ -107,8 +105,8 @@ const Home = () => {
                       About
                     </h2>
                     <p className="text-xs md:text-sm lg:text-base font-medium text-gray-600 max-w-prose">
-                      We Feining!!. Well yeah, I am a 3rd year student who's
-                      pursuing B.E in Information Technology.
+                      Well, I am a 3rd year student who's pursuing B.E in
+                      Information Technology. I posses a calm and an eager mind.
                     </p>
                   </div>
                 </div>
@@ -144,12 +142,13 @@ const Home = () => {
                         "/node.png",
                         "/react.png",
                         "/spring.png",
+                        "/js-icon.png",
                       ].map((src, index) => (
                         <img
                           key={index}
                           src={src}
                           alt="Tech Icon"
-                          className="w-6 md:w-8 lg:w-10 h-auto"
+                          className="w-6 md:w-8 lg:w-10 h-auto rounded-md"
                         />
                       ))}
                     </div>
