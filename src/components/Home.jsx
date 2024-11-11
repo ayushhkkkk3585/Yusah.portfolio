@@ -12,10 +12,7 @@ const Home = () => {
         <div className="w-full md:h-svh  px-2 md:px-4 lg:px-6 py-1 md:py-2 lg:py-3">
           <div className="grid h-full  grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-5 lg:gap-6 w-full opacity-85">
             {/* Card 1 */}
-            <div
-              id="project"
-              className="bg-white hover-target rounded-lg hover:scale-105 lg:hover:scale-110 transition-transform duration-300 lg:row-span-2 col-span-1 a overflow-hidden"
-            >
+            <div className="bg-white hover-target rounded-lg hover:scale-105 lg:hover:scale-110 transition-transform duration-300 lg:row-span-2 col-span-1 a overflow-hidden">
               <div className="flex flex-col sm:flex-row h-full">
                 <div className="flex-1 flex flex-col justify-center p-2 md:p-3 lg:p-4">
                   <div className="space-y-1 md:space-y-2">
@@ -67,11 +64,11 @@ const Home = () => {
             </div>
 
             {/* Card 3 */}
-            <div
-              id="education"
-              className="bg-white hover-target rounded-lg hover:scale-105 lg:hover:scale-110 transition-transform duration-300 a overflow-hidden"
-            >
-              <div className="flex flex-col sm:flex-row h-full w-full">
+            <div className="bg-white hover-target rounded-lg hover:scale-105 lg:hover:scale-110 transition-transform duration-300 a overflow-hidden">
+              <div
+                id="education"
+                className="flex flex-col sm:flex-row h-full w-full"
+              >
                 <div className="flex-1 flex flex-col justify-center p-2 md:p-3 lg:p-4">
                   <div className="space-y-1 md:space-y-2">
                     <h2 className="text-base md:text-lg lg:text-xl font-semibold text-gray-900 tracking-tight">
@@ -94,11 +91,11 @@ const Home = () => {
             </div>
 
             {/* Card 4 */}
-            <div
-              id="about"
-              className="bg-white hover-target rounded-lg hover:scale-105 lg:hover:scale-110 transition-transform duration-300 sm:col-span-2 a overflow-hidden"
-            >
-              <div className="flex flex-col sm:flex-row h-full w-full">
+            <div className="bg-white hover-target rounded-lg hover:scale-105 lg:hover:scale-110 transition-transform duration-300 sm:col-span-2 a overflow-hidden">
+              <div
+                id="about"
+                className="flex flex-col sm:flex-row h-full w-full"
+              >
                 <div className="flex-1 flex flex-col justify-center p-2 md:p-3 lg:p-4">
                   <div className="space-y-1 md:space-y-2">
                     <h2 className="text-base md:text-lg lg:text-xl font-semibold text-gray-900 tracking-tight">
@@ -122,11 +119,11 @@ const Home = () => {
             </div>
 
             {/* Card 5 */}
-            <div
-              id="technologies"
-              className="bg-white hover-target rounded-lg hover:scale-105 lg:hover:scale-110 transition-transform duration-300 sm:col-span-2 a overflow-hidden"
-            >
-              <div className="flex flex-col sm:flex-row h-full w-full">
+            <div className="bg-white hover-target rounded-lg hover:scale-105 lg:hover:scale-110 transition-transform duration-300 sm:col-span-2 a overflow-hidden">
+              <div
+                id="technologies"
+                className="flex flex-col sm:flex-row h-full w-full"
+              >
                 <div className="flex-1 flex flex-col justify-center p-2 md:p-3 lg:p-4">
                   <div className="space-y-1 md:space-y-2">
                     <h2 className="text-base md:text-lg lg:text-xl font-semibold text-gray-900 tracking-tight">
@@ -166,11 +163,8 @@ const Home = () => {
             </div>
 
             {/* Card 6 */}
-            <div
-              id="resume"
-              className="bg-white hover-target rounded-lg hover:scale-105 lg:hover:scale-110 transition-transform duration-300 lg:row-span-2 col-span-1 a overflow-hidden"
-            >
-              <div className="flex flex-col sm:flex-row h-full">
+            <div className="bg-white hover-target rounded-lg hover:scale-105 lg:hover:scale-110 transition-transform duration-300 lg:row-span-2 col-span-1 a overflow-hidden">
+              <div id="resume" className="flex flex-col sm:flex-row h-full">
                 <div className="flex-1 flex flex-col justify-center p-2 md:p-3 lg:p-4">
                   <div className="space-y-1 md:space-y-2">
                     <h2 className="text-base md:text-lg lg:text-xl font-semibold text-gray-900 tracking-tight">
@@ -179,10 +173,10 @@ const Home = () => {
                     <p className="text-sm md:text-base lg:text-lg font-medium text-gray-600 max-w-prose">
                       <a
                         target="_blank"
-                        href="https://drive.google.com/file/d/1H-Tj3iFgUPap-xNnQNv0M1VyYo41JRnP/view?usp=sharing"
+                        href="https://drive.google.com/file/d/16WoI5JYyT9dfizT9t19mvHDQK0ZKS3qE/view?usp=sharing"
                       >
                         Click here!
-                      </a>  
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -197,11 +191,11 @@ const Home = () => {
             </div>
 
             {/* Card 7 */}
-            <div
-              id="contact"
-              className="bg-white hover-target rounded-lg hover:scale-105 lg:hover:scale-110 transition-transform duration-300 overflow-hidden"
-            >
-              <div className="flex flex-col sm:flex-row h-full w-full">
+            <div className="bg-white hover-target rounded-lg hover:scale-105 lg:hover:scale-110 transition-transform duration-300 overflow-hidden">
+              <div
+                id="contact"
+                className="flex flex-col sm:flex-row h-full w-full"
+              >
                 <div className="flex-1 flex flex-col justify-center p-2 md:p-3 lg:p-4">
                   <div className="space-y-1 md:space-y-2">
                     <h2 className="text-base md:text-lg lg:text-xl font-semibold text-gray-900 tracking-tight">
