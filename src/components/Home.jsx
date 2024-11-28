@@ -21,7 +21,7 @@ const Home = () => {
                     </h2>
                     <p className="text-sm md:text-base lg:text-lg font-medium text-gray-600 max-w-prose">
                       <a
-                        href="https://github.com/ayushhkkkk3585?tab=repositories"
+                        href="https://github.com/ayushhkkkk3585"
                         target="_blank"
                       >
                         Wanna see my Projects? Click here
