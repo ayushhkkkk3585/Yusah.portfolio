@@ -173,7 +173,7 @@ const Home = () => {
                     <p className="text-sm md:text-base lg:text-lg font-medium text-gray-600 max-w-prose">
                       <a
                         target="_blank"
-                        href="https://drive.google.com/file/d/16WoI5JYyT9dfizT9t19mvHDQK0ZKS3qE/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1tfJu-JZphvuPpaGOGC6Rq9mtq_BRv2uy/view?usp=sharing"
                       >
                         Click here!
                       </a>
