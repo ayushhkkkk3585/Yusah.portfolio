@@ -102,7 +102,7 @@ const Home = () => {
                       About
                     </h2>
                     <p className="text-xs md:text-sm lg:text-base font-medium text-gray-600 max-w-prose">
-                      Well, I am a 3rd year student who's pursuing B.E in
+                      Well, I am a 4th year student who's pursuing B.E in
                       Information Technology. I posses a calm and an eager mind.
                     </p>
                   </div>
