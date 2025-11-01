@@ -1,6 +1,7 @@
 import "./App.css";
 import Home from "./components/Home";
 import Lenis from "lenis";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   // Initialize Lenis
@@ -15,6 +16,7 @@ function App() {
   return (
     <>
       <Home />
+      <Analytics />
     </>
   );
 }
